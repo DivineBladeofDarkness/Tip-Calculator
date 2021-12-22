@@ -1,0 +1,5 @@
+edu/qc/seclass/tipcalculator/BuildConfig.java
+ edu.qc.seclass.tipcalculator.BuildConfig
+edu/qc/seclass/tipcalculator/TipCalculatorActivity.java
+ edu.qc.seclass.tipcalculator.TipCalculatorActivity
+ edu.qc.seclass.tipcalculator.TipCalculatorActivity$1
