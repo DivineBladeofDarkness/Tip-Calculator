@@ -36,11 +36,11 @@ public class TipCalculatorActivity extends AppCompatActivity {
         buttonCompute.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-                if (checkAmountValue.getText().toString().length() <= 0)
-                    Toast.makeText(getApplicationContext(), "Wrong amount", Toast.LENGTH_SHORT).show();
+                if (checkAmountValue.getText().toString().length() == 0)
+                    Toast.makeText(getApplicationContext(), "Amount cannot be empty!", Toast.LENGTH_SHORT).show();
 
                 else if (partySizeValue.getText().toString().length() == 0 || Integer.parseInt(partySizeValue.getText().toString()) <= 0)
-                    Toast.makeText(getApplicationContext(), "Incorrect party size", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Party size should be at least 1!", Toast.LENGTH_SHORT).show();
 
                 else {
                     fifteenPercentTipValue = findViewById(R.id.fifteenPercentTipValue);
