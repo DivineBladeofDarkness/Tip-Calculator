@@ -1,4 +1,4 @@
-# Tip-Calculator-App
+# Tip Calculator App (Java)
 
 A calculator to check how much percent of tip you want to give!
 
@@ -10,6 +10,6 @@ Party Size: Number of people who wants to give tips
 
 Tip: The amount of money each person has to give according to percentages
 
-Total: The total amount of tip to be given based on party size
+Total: The total amount of tip to be given per person based on party size
 
 Tips to be given based on either 15%, 20% or 25% of total bill.
