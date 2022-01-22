@@ -1,6 +1,6 @@
 # Tip Calculator App
 
-A calculator to check how much percent of tip you want to give!
+A calculator to easily check how much percent of tip you want to give!
 
 ![image](https://user-images.githubusercontent.com/58964916/150036845-05c1ae04-26a3-4ee9-8eac-468a360fb20b.png)
 
